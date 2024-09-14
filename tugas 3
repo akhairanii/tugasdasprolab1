@@ -1,0 +1,14 @@
+program Biodata;
+var
+nama,nim,kom,alamat:string;
+begin
+write('Masukkan Nama Anda:');
+readln(nama);
+write('Masukkan Nim Anda:');
+readln(Nim);
+write('Masukan Kom Anda:');
+readln(Kom);
+write('Masukkan Alamat Anda:');
+readln(Alamat);
+writeln('Halo,Nama saya',nama,',Nim saya',Nim,',saya di Kom',Kom,',Alamat saya di,',Alamat,'.Salam Kenal Semua!');
+end.
