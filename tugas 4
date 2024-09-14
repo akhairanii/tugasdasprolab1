@@ -1,0 +1,17 @@
+program AlamatLengkap;
+
+var
+jalan, nomor, kota:string;
+kode_pos:integer;
+begin
+  write('Masukkan nomor jalan:');
+  readln(jalan);
+  write('Masukkan nomor Rumah:');
+  readln(nomor);
+  write('Masukkan nama kota:');
+  readln(kota);
+  write('Masukkan kode pos:');
+  readln(kode_pos);
+
+writeln('Alamat:jalan',jalan,'No.',nomor,'',kota,'',kode_pos);
+end.
