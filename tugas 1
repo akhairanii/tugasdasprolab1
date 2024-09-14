@@ -1,0 +1,6 @@
+program Helloworld;
+
+begin
+    writeln('Belajar Pascal untuk Dasar Pemograman');
+    
+end.
